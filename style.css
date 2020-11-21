@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+nav {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.card-Container {
+    min-height: auto;
+    max-height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1{
+    display: flex;
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px 1px black;
+    transition: 300ms ease-in-out;
+    margin: 20px;
+}
+
+.card1:hover {
+    box-shadow: none;
+}
+
+
+img{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+    transition: 300ms ease-in-out;
+}
+
+.id {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+.name {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3em;
+    color: black;
+    height: auto;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: 300ms ease-in-out;
+}
+
+.type {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    padding: 0px 20px;
+}
+
+ .generate {
+    margin-top: 15px;
+    width: 200px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #EE4035;
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 1.3em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+}
+
+.generate:hover{
+    transform: scale(1.05);
+    transition: 300ms ease-in-out;
+}
+
